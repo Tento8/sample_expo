@@ -7,8 +7,12 @@ import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 
 function HomeScreen() {
   return (
-    <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text>屋台</Text>
+    <View style={{ flex: 1, justifyContent: 'left', alignItems: 'center' }}>
+        <Text>1.　ヨーヨーすくい</Text>
+        <Text>2.　わなげ</Text>
+        <Text>3.　射的</Text>
+        <Text>4.　魚釣り</Text>
+        <Text>5.　ききヨーグルト</Text>
     </View>
   );
 }
