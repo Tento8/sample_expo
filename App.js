@@ -5,14 +5,16 @@ import { StyleSheet, Text, View, Button } from 'react-native';
 import { NavigationContainer } from '@react-navigation/native';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 
+const textListStyle = { fontSize:26, lineHeight: 36 };
+
 function HomeScreen() {
   return (
-    <View style={{ flex: 1, justifyContent: 'left', alignItems: 'center' }}>
-        <Text>1.　ヨーヨーすくい</Text>
-        <Text>2.　わなげ</Text>
-        <Text>3.　射的</Text>
-        <Text>4.　魚釣り</Text>
-        <Text>5.　ききヨーグルト</Text>
+    <View style={{ flex: 1, justifyContent: 'center', alignItems: 'left', marginHorizontal:30 }}>
+        <Text style={textListStyle}>1.　ヨーヨーすくい</Text>
+        <Text style={textListStyle}>2.　わなげ</Text>
+        <Text style={textListStyle}>3.　射的</Text>
+        <Text style={textListStyle}>4.　魚釣り</Text>
+        <Text style={textListStyle}>5.　ききヨーグルト</Text>
     </View>
   );
 }
